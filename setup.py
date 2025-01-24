@@ -32,7 +32,7 @@ import platform
 from setuptools import setup
 from setuptools.command.test import test as test_command
 
-# remember if we already had six _before_ installation
+# remember if we already had six _before_ installation_
 try:
     import six  # noqa
     _HAD_SIX = True
